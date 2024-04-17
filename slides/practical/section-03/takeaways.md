@@ -17,4 +17,4 @@ Acorn takes care of secrets and volumes, both locally and remote
 
 <br />
 
-- Secrets can be exposed via Acorn's CLI, no more need for <br/>`kubectl get secrets/db-auth --template={{.data.password}} | base64 -d`
+- Secrets can be exposed via Acorn's CLI, no more need for <br/>`kubectl get secrets/db-auth ... | base64 -d`
